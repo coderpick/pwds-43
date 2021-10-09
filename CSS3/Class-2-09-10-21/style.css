@@ -1,0 +1,108 @@
+
+
+
+/* 
+font-family: 'Ephesis', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* menu css start */
+
+.menu{
+    background: #000;
+    overflow: hidden;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+   float: left;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding: 12px 18px
+}
+
+.menu ul li a.active{
+   background:#4caf50;
+}
+.menu ul li a:hover:not(.active){
+    background:#ff4500;
+}
+
+a{
+    text-decoration: none;
+}
+h2{
+  font-family: 'Ephesis', cursive;
+    font-size: 42px;
+    font-style: oblique;
+    font-weight: 900;
+    font-variant: small-caps;
+    color:red
+}
+h1{
+    font-family: 'Qinder Butter';
+    text-transform: capitalize;
+}
+
+/* text formating  */
+
+p{
+    background: blue;
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-indent: 2%;
+    padding:20px
+}
+
+.shadow {
+    font-size: 90px;
+    background: #000;
+    color: #ff4500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 4px 4px 2px #ffeb3b;
+}
+
+.social-link a {
+    font-size: 20px;
+    color: #ff5722;
+    background: #000;
+    display: inline-block;
+    /* padding-top: 12px; */
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.studentinfotable{
+    border-collapse: collapse;
+}
+.studentinfotable th,td{
+    border: 1px solid #444;
+    padding: 16px;
+}
+thead{
+    background: #ddd;
+}
+tr:hover{
+    background: #ddd;
+}

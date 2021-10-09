@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Qinder Butter';
+  src: url('Qinder Butter.eot');
+  src: url('Qinder Butter.eot?#iefix') format('embedded-opentype'),
+       url('Qinder Butter.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'QinderButter';
+  src: url('QinderButter.svg#QinderButter') format('svg'),
+       url('QinderButter.ttf') format('truetype'),
+       url('QinderButter.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
